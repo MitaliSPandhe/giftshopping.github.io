@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+  background-color: rgb(195, 193, 193);
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+
+
+}
+
+.nav a {
+  color: black;
+}
+
+input {
+  border-radius: 1rem;
+  outline: none;
+  padding: 0.3rem;
+  margin: 0.1rem;
+}
+
+button {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  outline: none;
+  background-color: gray;
+  color: white;
+}
+
+.blue {
+  color: rgb(246, 167, 21);
+  font-size: 1.9rem;
+  margin: 0.2rem;
+}
+
+.red-color {
+  color: rgb(250, 44, 44);
+  margin: 0.3rem;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.shop {
+  font-size: 1.5rem;
+  color: rgb(70, 58, 58);
+  margin: 0.3rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.user {
+  font-size: 1.5rem;
+  color: rgb(47, 40, 40);
+  margin: 0.3rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+#submenu:hover {
+  background-color: black;
+  color: white;
+  transform: scale(0.9);
+  font-size: 1.2rem;
+}
+
+#popular {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: rgb(102, 101, 101);
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 1px solid rgb(77, 76, 76);
+
+}
+
+figure {
+  margin: 0.2rem;
+
+}
+
+figure img {
+  margin: 0.2rem;
+  padding: 0.1rem;
+  width: 50vh;
+  border-radius: 2rem;
+
+  border: 1px solid rgb(163, 163, 183);
+}
+
+#figure:hover {
+  cursor: pointer;
+  border: 2px solid rgb(118, 161, 210);
+  transform: scale(1.1rem);
+
+}
+
+figcaption h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+#head {
+  text-align: center;
+  font-style: italic;
+  color: rgb(243, 41, 37);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(255, 131, 90);
+  padding: 5rem;
+  padding-bottom: 1rem;
+}
+
+#para {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 0.9rem;
+}
+
+.form-control {
+  border: 1px solid rgb(124, 124, 223);
+
+  width: 90%;
+}
+
+#best {
+  text-align: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  font-weight: bold;
+  color: rgb(102, 101, 101);
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 1px solid black;
+
+}
+
+.card {
+  width: 18rem;
+
+  padding: 0.1rem;
+  margin: 1rem;
+  /* height: 20rem; */
+  border: 1px solid black;
+  box-shadow: 2px 1px 2px 3px rgb(208, 202, 202);
+  border-radius: 0.6rem;
+
+}
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card #rakhi {
+  height: 10rem;
+}
+
+#rak {
+  font-size: 1.2rem;
+}
+
+.yellow {
+  color: orange;
+
+}
+
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #443e3e;
+  border-radius: 4px;
+  outline: none;
+
+}
+
+.submit-button {
+  background-color: #2ed725;
+  color: #fbf7f7;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+
+}
+
+.submit-button:hover {
+  background-color: #179715;
+}
+
+#get {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+h2,
+h5,
+.h2,
+.h5 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: .5rem;
+  color: #32325d;
+}
+
+h5,
+.h5 {
+  font-size: .8125rem;
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .col-xl-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+
+  .col-xl-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+
+.bg-danger {
+  background-color: #f5365c !important;
+}
+
+
+
+@media (min-width: 1200px) {
+
+  .justify-content-xl-between {
+    justify-content: space-between !important;
+  }
+}
+
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.pb-8 {
+  padding-bottom: 0rem !important;
+}
+
+@media (min-width: 768px) {
+
+  .pt-md-8 {
+    padding-top: 3rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .mb-xl-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+
+
+
+.font-weight-bold {
+  font-weight: 600 !important;
+}
+
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #24a46d !important;
+}
+
+.text-warning {
+  color: #fb6340 !important;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #fa3a0e !important;
+}
+
+.text-danger {
+  color: #f5365c !important;
+}
+
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #ec0c38 !important;
+}
+
+.text-white {
+  color: #fef7f7 !important;
+}
+
+a.text-white:hover,
+a.text-white:focus {
+  color: #e6e6e6 !important;
+}
+
+.text-muted {
+  color: #545050 !important;
+  font-size: 1.1rem;
+}
+
+@media print {
+
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+
+  p,
+  h2 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  @page {
+    size: a3;
+  }
+
+  body {
+    min-width: 992px !important;
+  }
+}
+
+figcaption,
+main {
+  display: block;
+}
+
+/* main {
+  overflow: hidden;
+} */
+
+.bg-yellow {
+  background-color: #ffd600 !important;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon i {
+  font-size: 2.25rem;
+}
+
+.icon-shape {
+  display: inline-flex;
+  padding: 12px;
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-image: linear-gradient(#f0eff0, #bdbbbe);
+
+
+  padding: 5rem;
+
+  color: rgb(20, 18, 18);
+
+  /* margin-bottom: 0; */
+}
+
+#icon {
+  background-image: linear-gradient(#b8b4b8, #979598);
+  text-align: center;
+  color: rgb(16, 15, 15);
+  padding: 2px;
+  font-size: 1.5rem;
+
+
+}
+
+#flex {
+  display: inline;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+
+}
+
+.whites {
+  color: rgb(9, 66, 146);
+  cursor: pointer;
+}
+
+.pinks {
+  color: rgb(245, 19, 83);
+  cursor: pointer;
+}
+
+.skys {
+  color: rgb(5, 103, 240);
+  cursor: pointer;
+}
+
+.greens {
+  color: rgb(8, 163, 8);
+  cursor: pointer;
+}
+
+.blues {
+  color: rgb(36, 109, 235);
+  cursor: pointer;
+}
